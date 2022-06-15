@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Play:wght@700&display=swap');
+*{
+margin:0px;
+}
+.index{
+/* background-color: lightcoral; */
+background-image: url("beach_4.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+display:flex;
+align-items: center;
+}
+.principal{
+/* border: 5px solid red; */
+width: 50%;
+margin-left: auto;
+margin-right: auto;
+/* margin-top: auto;
+margin-bottom: auto; */
+color:rgb(0, 0, 0) ;
+text-align: center;
+}
+.principal__titulo{
+font-size: 100px;
+font-family: 'Bebas Neue', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.principal__parrafo{
+font-size: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.principal__boton{
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(0, 0, 0); color: rgb(221, 232, 240);
+    font-size: 20px;
+    font-family: 'Bebas Neue';
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+}
+.mabutton{
+width:80px;
+height: 30px;
+margin-top: 10px;
+margin-bottom: 20px;
+background-color:rgb(0, 0, 0);color: white;
+font-size: 20px;
+font-family: 'Bebas Neue';
+border: none;
+border-radius: 10px;
+cursor:pointer;
+}
+.Titulo{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: color #5a8a9e;
+}
+.tituloTexto{
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Rs{
+    color: white;
+    background-color:#5a8a9e ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    
+
+}
+
+.redessociales___logo{
+    height: 40px;
+    margin-right: 20px;
+}
+
+.menu{
+    background-color: #C6DCE4;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.tu_logo{
+    width: 120px
+}
+
+.menu___link{
+    text-decoration: none;
+}
+.menu_lista{
+    display: flex;
+    
+}
+.menu_lista_elemento{
+    margin-left: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    list-style: none;
+    font-weight: bold;
+    color: #22576d;
+}
+.main{
+    display: flex ;
+    text-align: center;
+    background-color: #FFE6E6;
+    color:#22576d;
+}
+.mainimagenn{
+    height: 380px;
+    margin: 300px;
+
+}
+.mainimagenn2{
+    height: 120px;
+    margin: 20px;
+    margin-left: 100px;
+    border-radius: 3080px;
+
+}
+.main_button{
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(94, 13, 75);
+    color: black;
+    font-size: 20px;
+    border-radius: 75px;
+    cursor: pointer;
+    
+    
+}
+.main2{
+    margin: 0px 0px;
+    text-align: justify;
+    margin-right:150px;
+    margin-left: 50px;
+    height: 60%;
+}
+/* .footer{
+    background-color:DAEAF1;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-family: cursive;
+} */
+
+.contenedor__card{
+    display:flex;
+    justify-content: center;
+    margin:0 20px;
+    padding: 30px;
+}
+
+.card{
+    border: 2px solid #22576d ;
+    width: 20%;
+    text-align: center;
+    margin:0 30px ; 
+    /* Primer valor para margen superior e inferior y segundo valor para izquierdo o derecho ; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+    font-size: 90%;
+    background-color: #C6DCE4;
+    color: black;
+
+}
+
+.cardi{
+    width: 60%;
+    margin-top: 20px;
+
+}
+
+.Botoncontenedor{
+
+    margin-top: 20px;
+    border-radius: 8px;
+    margin: 10px ;
+
+}
+.body{
+    background-color: #F2D1D1;
+}
+
+.footer{ 
+    background:linear-gradient(rgb(112, 176, 196), rgb(221, 232, 240));
+    height: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.footer_texto{ 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+}
+.contenedorMain{
+    background-color: #FFE6E6 ;
+    display: flex;
+    justify-content: center;
+}
+.contenedorMain__img{
+    height: 400px;
+    margin: 50px;
+}
+.Lado_Derecho__texto{
+    width: 35%;
+    justify-content: center;
+}
+.eve{
+    text-align: justify;
+    display: flex;
+    margin: 0px 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contactame{
+    text-align: center;
+}
+.text__contacto{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top:30px;
+    text-align: center;
+   
+    
+}
+.redes__contacto{
+    display: flex;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+}
+.foto__contacto{
+    width:200px ;
+    height:300px;
+    text-align: center;
+    margin-top: 110px;
+}
+
+.info__mia{
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top:15px;
+    text-align: center;
+    justify-content: center;
+}
+.info__ciudad{
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top:10px;
+    text-align: center ;
+    justify-content: center;
+}
+.redes__contacto img{
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+}
+.menu___cancion{
+    text-decoration: none;
+}
+.menu_lista_cancion{
+        margin-left: 50px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        list-style: none;
+        font-weight: bold;
+        color: #22576d;
+}
